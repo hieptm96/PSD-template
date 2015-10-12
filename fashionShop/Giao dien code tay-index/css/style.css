@@ -1,0 +1,478 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 21, 2015, 9:39:02 PM
+    Author     : user
+*/
+
+body{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+#wrapper{
+    background: #ffffff;
+    width: 100%;
+}
+
+/******************************  style cho header  *********************************/
+
+/*style cho #top_menu*/
+#top_menu{
+    background: #000000;
+}
+
+#top_logo{
+    float: left;
+    padding:18px 0;
+    margin-right: 110px;
+}
+/*******************/
+#nav{
+    float: left;
+}
+#nav li{
+    float: left;
+    padding:28px 0;
+    margin-right:45px; 
+}
+#nav li a{
+    color: #d9d9d9;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+#nav li:hover{
+    border-bottom: 2px solid #e23d3d;
+    padding-bottom: 26px;
+}
+#nav li:hover a{
+    color: #ffffff;
+}
+/*********************/
+#search_buy{
+    float: right;
+}
+#search_buy .search{
+    display: block;
+    float: left;
+    padding: 28px 20px 20px 20px;
+}
+#search_buy .buy{
+    display: block;
+    float: right;
+    padding:20px;
+    position: relative;
+}
+#search_buy .search:hover,#search_buy .buy:hover{
+    border-bottom: 2px solid #e23d3d;
+    padding-bottom: 18px;
+}
+
+
+#list_buy{
+    background: #171818;
+    width: 250px;
+    display: none;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+}
+#list_buy li{
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+#list_buy li:hover{
+    opacity: 0.6px;
+}
+#list_buy img{
+    float: left;
+    height: 56px;
+    width: 56px;
+}
+#list_buy .detail_product{
+    float: right;
+    width: 70%;
+}
+#list_buy .detail_product p{
+    line-height: 1.7em;
+}
+#list_buy .info_product,#list_buy .price_product{
+    padding: 0;
+    font-size: 12px;
+}
+#list_buy .info_product{
+    color: #adadad;
+}
+#search_buy .buy:hover #list_buy{
+    display: block;
+}
+
+/*style cho slider*/
+#top_slider a{
+    overflow: hidden;
+}
+
+
+
+/******************************   style cho wp_content   ************************/
+#wp_content{
+    background: #ffffff;
+}
+
+/*style cho #top_content*/
+#top_content{
+    background: #eaeaea;
+}
+/********************/
+#male_fashion{
+    float: left;
+    width: 33.33333333%;
+    position: relative;
+    overflow: hidden;
+}
+/********************/
+#female_fashion{
+    float: left;
+    width: 33.33333333%;
+    position: relative;
+    overflow: hidden;
+}
+/*********************/
+#couple_fashion{
+    float: left;
+    width: 33.33333334%;
+    position: relative;
+    overflow: hidden;
+}
+/**********************/
+.more_button input[type='button']{
+    position: absolute;
+    top:35%;
+    left: 6%;
+    color: #e23d3d;
+    text-transform: uppercase;
+    font-weight: bold; 
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px solid #e23d3d;
+    background: none;
+}
+.more_button input[type='button']:hover{
+    background: #e23d3d;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+/*style cho #new_product*/
+
+#new_product{
+    padding: 50px 0 15px 0;
+}
+/************************/
+#pre_next{
+    text-align: center;
+    width: 75px;
+    margin: 20px auto;
+}
+.second_pre{
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #b8b8b8;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 15px;
+}
+.second_next{
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #b8b8b8;
+    text-align: center;
+    padding-top: 7px;
+    -ms-transform: rotate(180deg);/*de quay 180 do*/
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); 
+}
+.second_pre:hover,.second_next:hover{
+    background: #e23d3d;
+    cursor: pointer;
+    border: none;
+}
+
+/****************************/
+.select{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.select li{
+    display: inline-block;
+    padding: 10px;
+}
+.select li a{
+    display: block;
+    font-size: 15px;
+    color: #696969;
+    text-transform: uppercase;
+}
+.select li:hover{
+    border-bottom: 2px solid #e23d3d;
+    padding-bottom: 8px;/*border-bottom tang 2px nen phai gian padding-bottom di 2px*/
+}
+
+/****************************/
+.list_product li{
+    float: left;
+    margin-right: 2.6%;
+    margin-bottom: 45px;
+    text-align: center;
+    width: 23.05%;
+    overflow: hidden;
+    position: relative;
+}
+.list_product li:nth-child(4n){
+    margin-right: 0;
+}
+
+.thumb .info_product{
+    font-size: 14px;
+    color: #131313;
+    padding-top: 20px;
+}
+.thumb .price_product{
+    font-size: 20px;
+    color: #e23d3d;
+    padding: 15px;
+}
+
+
+.affection{
+    display: none;
+    background: #e34e4e;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 65.5%;
+}
+.block_1{
+    float: left;
+    padding-left: 15px;
+}
+.block_1 span{
+    margin-left: 5px;
+    color: #fff;
+}
+.block_2, .block_3{
+    float: right;
+    padding: 0 15px;
+    border-left: 1px solid #ff6f6f;
+}
+.list_product li:hover .affection{
+    display: block;
+}
+.list_product li:hover .ads_affection{
+    opacity: 0.6;
+}
+
+
+
+/*style cho #collection*/
+#collection{
+    background: url(../images/images/background_collection.jpg) no-repeat;
+    padding: 90px 0;
+}
+
+.column_left{
+    width: 65.8%;
+    float: left;
+}
+.column_left .row_1{
+    margin-bottom: 1.6%;
+}
+.column_left .row_1 .winter_collection{
+    float: left;
+    width: 35%;
+}
+.column_left .row_1 .summer_collection{
+    float: right;
+    width: 63%;
+}
+.column_left .row_2 .beach_fashion{
+    float: left;
+    width: 63%;
+}
+.column_left .row_2 .man_007{
+    float: right;
+    width: 35%;
+}
+
+.column_right{
+    width: 32.9%;
+    float: right;
+}
+/*hieu ung khi hover chuot*/
+.hover_affection:hover{
+    opacity: 0.3;
+}
+
+/*style cho #support*/
+
+#support{
+    background: #e23d3d;
+}
+
+.service{
+    width: 31.6%;
+    margin-right: 2.6%;
+    float: left;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.service:last-child{
+    margin-right: 0;
+}
+
+.topic{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fa5b5b;
+}
+.topic img{
+    float: left;
+    margin-right: 15px;
+}
+.topic h2{
+    float: left;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.details{
+    margin-top: 20px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 2em;
+    
+}
+#delivery img{
+    margin-top: 15px;
+}
+
+
+
+/*style cho #new_model*/
+#new_model{
+    background: #ffffff;
+    text-align: center;
+    padding: 65px 0 40px 0;
+}
+#new_model .icon_new_model{
+    margin: 15px 0 45px 0;
+}
+
+
+/*style cho #news_event*/
+#news_event{
+    background: #1b1b1b;
+    text-align: center;
+    padding:50px 0 65px 0;
+}
+
+#news_event h1{
+    color: #fff;
+}
+#news_event .icon_new_model{
+    margin: 20px 0 45px 0;
+}
+.news{
+    width: 31.6%;
+    margin-right: 2.6%;
+    float: left;
+    text-align: center;
+}
+.news:last-child{
+    margin-right: 0;
+}
+
+.news .more_info{
+    margin: 15px 0;
+    line-height: 2em;
+}
+.news .more_info a{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.icon_clock{
+    margin-right: 5px;
+}
+
+
+
+
+/*style cho #footer*/
+#footer{
+    background: #000000;
+    text-align: center;
+}
+
+#contact{
+    background: url(../images/images/background_footer.jpg) no-repeat;
+    padding: 50px 0 85px 0;
+}
+#contact h1{
+    color: #fff;
+}
+#contact .icon_email{
+    margin: 20px 0 85px 0;
+}
+
+#details_contact{
+    float: left;
+    width: 50%;
+}
+#details_contact span{
+    margin-right: 5px;
+}
+#details_contact h1{
+    text-align: left;
+}
+#details_contact p{
+    margin-top: 25px;
+    text-align: left;
+    color: #aeaeae;
+    font-size: 15px;
+}
+
+#post_form{
+    float: right;
+    width: 50%;
+}
+#post_form input,textarea{
+    /*width: 558px;*/
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-style: italic
+}
+#post_form input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #515151;
+}
+#post_form textarea{
+    border: 1px solid #515151;
+    background: none;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    color: #3f3f3f;
+    padding: 18px;
+}

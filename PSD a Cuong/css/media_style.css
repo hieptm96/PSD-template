@@ -1,0 +1,279 @@
+body{
+	font-family: "Arial", sans-serif;
+}
+
+#wrapper{
+	background-color: #f3eeea;
+}
+
+/*style cho header*/
+#header{
+	background-image: url("../images/images/background_header.jpg");
+}
+
+#top_header{
+	background-color: #ffffff;
+}
+#logo{
+	float: left;
+	margin: 30px 0 30px 20px;
+}
+
+
+#top{
+	float: right;
+	margin-top: 20px;
+	background-color: #76b2c3;
+	position: relative;
+}
+
+#menu{
+	float: left;
+	margin-right: 50px;
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu ul li{
+	float: left;
+	margin: 10px 0 9px 10px;
+	padding-right: 10px;
+	border-right: 1px solid #ffffff;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+}
+#search{
+	float: right;
+	margin: 10px 10px 5px 10px;
+}
+#top #flag{
+	position: absolute;
+	right: -4.5%;
+}
+
+#bottom{
+	float: right;
+	margin:30px 20px 25px 0;
+}
+#nav ul{
+	list-style-type: none;
+} 
+#nav ul li{
+	float: left;
+	margin-right: 60px;
+}
+#nav ul li:last-child{
+	margin-right: 0;
+}
+#nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #668333;
+}
+
+
+#title{
+	margin: 130px 0 40px 0;
+	background-color: #307f96;
+	width: 46%;
+}
+#title h3{
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+/*style cho wp_content*/
+
+#top_content{
+	margin:30px 0;
+}
+#top_content ul li{
+	float: left;
+	margin-right: 30px;
+}
+#top_content ul li:last-child{
+	margin-right: 0;
+}
+.first{
+	background-image: url('../images/images/image_04.jpg');
+}
+.second{
+	background-image: url('../images/images/image_05.jpg');
+}
+.third{
+	background-image: url('../images/images/image_06.jpg');
+}
+.first .show{
+	background-color: #247586;
+}
+.second .show{
+	background-color: #546b2b;
+}
+.third .show{
+	background-color: #e77e6c;
+}
+.top_block .show{
+	margin-top: 150px;
+	margin-left: 55px;
+	opacity: 0.8;
+}
+.top_block .show a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+}
+.top_block .show a img{
+	float: right;
+	margin: 8px;
+}
+.top_block .show a p{
+	float: left;
+	margin: 15px 0 15px 20px;
+}
+
+#info{
+	padding-bottom: 30px;
+}
+#info h3{
+	color: #4999af;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	font-weight: normal;
+}
+#left_content{
+	float: left;
+	width: 48%;
+}
+#left_content ul li{
+	border-top: 1px solid #d2cdc9;
+	padding: 20px 0;
+}
+
+.block .datetime{
+	float: left;
+	color: #668333;
+}
+.block .datetime .date{	
+	font-size: 32px;
+}
+.block .datetime .month{
+	font-size: 14px;
+}
+
+.block .time{
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.block .time h4{
+	color: #f1715e;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+#button input{
+	height: 30px;
+	width: 90px;
+	float: right;
+	background-color: #4999af;
+	color: #f3eeea;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 5px;
+}
+#button input:hover{
+	background:lightblue;
+}
+
+#right_content{
+	float: right;
+	width: 48%;
+}
+#right_content p{
+	color: #5f5f5f;
+	font-size: 14px;
+	margin-bottom: 25px;
+	line-height: 130%;
+}
+#right_content a{
+	color: #f1715e;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/*style cho footer*/
+#footer{
+	background-color: #525252;
+}
+
+#top_footer{
+	border-bottom: 1px solid #6b6b6a;
+}
+.detail{
+	margin-bottom: 50px;
+}
+.detail h3{
+	color: #f3eeea;
+	font-size: 20px;
+	margin:30px 0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+#signup{
+	float: left;
+}
+#signup input{
+	background-color: #4999af;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	color: #f3eeea;
+	font-size: 18px;
+}
+#signup input:hover{
+	background-color: lightblue;
+	color: #000;
+}
+#service_time{
+	margin-left: 90px;
+	float: left;
+}
+#service_time p.time{
+	padding: 10px 0;
+	color: #f3eeea;
+	font-size: 20px;
+}
+#service_time p{
+	color: #b3b3b3;
+	font-size: 12px;
+}
+#connect{
+	float: right;
+	margin-right: 50px;
+}
+#connect ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+#bottom_footer{
+	padding: 25px 0;
+	color: #b3b3b3;
+	font-size: 12px;
+}
+#bottom_footer a{
+	color: #b3b3b3;
+}

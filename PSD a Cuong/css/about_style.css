@@ -1,0 +1,205 @@
+body{
+	font-family: "Arial", sans-serif;
+}
+
+#wrapper{
+	background-color: #f3eeea;
+}
+
+/*style cho header*/
+#header{
+	background-image: url("../images/images/background_header.jpg");
+}
+
+#top_header{
+	background-color: #ffffff;
+}
+#logo{
+	float: left;
+	margin: 30px 0 30px 20px;
+}
+
+
+#top{
+	float: right;
+	margin-top: 20px;
+	background-color: #76b2c3;
+	position: relative;
+}
+
+#menu{
+	float: left;
+	margin-right: 50px;
+}
+#menu ul{
+	list-style-type: none;
+}
+#menu ul li{
+	float: left;
+	margin: 10px 0 9px 10px;
+	padding-right: 10px;
+	border-right: 1px solid #ffffff;
+}
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+}
+#search{
+	float: right;
+	margin: 10px 10px 5px 10px;
+}
+#top #flag{
+	position: absolute;
+	right: -4.5%;
+}
+
+#bottom{
+	float: right;
+	margin:30px 20px 25px 0;
+}
+#nav ul{
+	list-style-type: none;
+} 
+#nav ul li{
+	float: left;
+	margin-right: 60px;
+}
+#nav ul li:last-child{
+	margin-right: 0;
+}
+#nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #668333;
+}
+
+
+#title{
+	margin: 180px 0 40px 0;
+	background-color: #307f96;
+	width: 320px;
+}
+#title h3{
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 34px;
+	font-weight: normal;
+}
+
+/*style cho wp_content*/
+#wp_content{
+	padding: 40px 0 170px 0;
+}
+#left_content{
+	float: left;
+	width: 60%;
+}
+#left_content h1{
+	color: #4999af;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#left_content p{
+	margin-top: 25px;
+	color: #5f5f5f;
+	font-size: 14px;
+}
+
+#right_content{
+	float: right;
+	width: 40%;
+
+}
+#right_content ul li{
+	padding: 15px 0;
+	border-top: 1px solid #d2cdc9;
+	position: relative;
+}
+#right_content ul li:last-child{
+	border-bottom: 1px solid #d2cdc9;
+}
+#right_content ul li a{
+	margin-left: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #599fb3;
+	font-size: 20px;
+}
+#right_content ul li img{
+	position: absolute;
+	top: 35%;
+}
+.active{
+	color: #f1715e;
+}
+
+/*style cho footer*/
+#footer{
+	background-color: #525252;
+}
+
+#top_footer{
+	border-bottom: 1px solid #6b6b6a;
+}
+.detail{
+	margin-bottom: 50px;
+}
+.detail h3{
+	color: #f3eeea;
+	font-size: 20px;
+	margin:30px 0;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+#signup{
+	float: left;
+}
+#signup input{
+	background-color: #4999af;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	color: #f3eeea;
+	font-size: 18px;
+}
+#signup input:hover{
+	background-color: lightblue;
+	color: #000;
+}
+#service_time{
+	margin-left: 90px;
+	float: left;
+}
+#service_time p.time{
+	padding: 10px 0;
+	color: #f3eeea;
+	font-size: 20px;
+}
+#service_time p{
+	color: #b3b3b3;
+	font-size: 12px;
+}
+#connect{
+	float: right;
+	margin-right: 50px;
+}
+#connect ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+#bottom_footer{
+	padding: 25px 0;
+	color: #b3b3b3;
+	font-size: 12px;
+}
+#bottom_footer a{
+	color: #b3b3b3;
+}

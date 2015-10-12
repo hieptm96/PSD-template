@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 26, 2015, 4:36:24 PM
+    Author     : user
+*/
+
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 1024px) {
+	
+} 
+@media screen and (max-width: 768px) {
+    .wp_inner{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    #new_product .list_product li{
+        width: 46%;
+        margin:0 2%;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .wp_inner{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #male_fashion, #female_fashion, #couple_fashion,#pay,#delivery,#change,.news,#detail_contact,#post_form{
+        display: block;
+        width: 100%;
+    }
+    #pay,#delivery{
+        border-bottom: 2px solid #fff;
+    }
+}
+@media screen and (max-width: 320px) {
+   
+}
+@media screen and (max-width: 240px) {
+
+}

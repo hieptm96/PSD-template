@@ -1,0 +1,182 @@
+body{
+	font-family: "Arial" sans-serif;
+
+}
+
+#wrapper{
+	background-color: #efefef;
+}
+
+/*style cho header*/
+#logo{
+	float:left;
+	padding: 40px 0 25px 0;
+}
+
+#form{
+	float: left;
+	margin:50px 0 25px 65px;
+}
+#top_menu ul{
+	float: right;
+	list-style-type: none;
+	margin: 55px 0 35px 0;
+}
+#top_menu li{
+	float: left;
+	border-right: 1px solid #919191;
+	padding: 0 5px;
+}
+#top_menu li:last-child{
+	border-right: none;
+	padding-right:0;
+}
+#top_menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #353535; 
+}
+
+#nav ul{
+	list-style-type: none;
+}
+#nav li{
+	float: left;
+	padding: 5px;
+	background-color: #818181;
+	margin-right: 5px;
+}
+#nav li:last-child{
+	float: right;
+	margin-right: 0;
+}
+#nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15.4px;
+	color: #ffffff;
+}
+
+
+/*style cho wp_content*/
+#slide{
+	margin:15px 0;
+	position: relative;
+}
+#pre{
+	position: absolute;
+	left: 16%;
+	top: 45%;
+}
+#next{
+	position: absolute;
+	right: 16%;
+	top: 45%;
+}
+
+
+#ads_sale{
+	margin-bottom: 15px;
+}
+#ads_1{
+	float: left;
+	margin-right: 15px;
+}
+#ads_2{
+	float: right;
+}
+
+
+
+#product{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#product ul li{
+	float: left;
+	margin-right: 15px;
+	position: relative;
+}
+#product ul li:last-child{
+	margin-right: 0;
+}
+
+#pre_product{
+	position: absolute;
+	left: 13%;
+	top: 40%;
+}
+#next_product{
+	position: absolute;
+	right: 13%;
+	top:40%;
+}
+.button{
+	position: absolute;
+    bottom: 6%;
+    right: 5%;
+}
+
+
+#bottom_content{
+	background-color: #333333;
+}
+#bottom_content ul{
+	list-style-type: none;
+}
+#bottom_content ul li{
+	float: left;
+	margin: 10px 15px;
+}
+#bottom_content ul li:first-child{
+	margin-left: 0;
+}
+
+
+#information{
+	background-color: #111111;
+}
+#left{
+	float: left;
+}
+#left >ul >li{
+	float: left;
+	padding: 35px 40px 45px 0;
+}
+#left h3,#right h3{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: normal;
+}
+#left >ul >li ul{
+	list-style-type: none;
+}
+#left >ul >li ul li a{
+	text-decoration: none;
+	color: #666669;
+	font-size: 12px;
+}
+
+#right{
+	float: right;
+	padding: 35px 0 45px 0;
+
+}
+
+
+
+/*style cho footer*/
+#left_footer{
+	float: left;
+}
+
+#right_footer{
+	float: right;
+}
+#right_footer ul li{
+	float: left;
+	margin-left: 10px;
+	padding: 15px 0;
+}
